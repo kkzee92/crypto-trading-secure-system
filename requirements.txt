@@ -1,0 +1,4 @@
+# Core (keep minimal for security surface)
+# Add ccxt, pandas, numpy, etc. only after security review
+# python-dotenv for local env loading (never commit .env)
+python-dotenv>=1.0.0
